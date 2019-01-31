@@ -1,58 +1,61 @@
-# THELMA Terraform
-- [THELMA Terraform](#thelma-terraform)
-    - [Introduction](#introduction)
-    - [What is THELMA?](#what-is-thelma)
-    - [Components](#components)
-        - [ArchivesSpace](#archivesspace)
-            - [Technical Details](#technical-details)
-            - [Resources](#resources)
-        - [DSpace](#dspace)
-            - [Resources](#resources)
-        - [Archivematica](#archivematica)
-        - [Hyku / Fedora](#hyku--fedora)
-        - [Koha](#koha)
-    - [Cloud Hosting](#cloud-hosting)
-    - [Contributing](#contributing)
+# THELMA
 
-## Introduction
-This repository contains the terraform scripts to build out the NYC Municipal Archives THELMA Digital Platform using AWS / Azure.
+[![Tagged Release](https://img.shields.io/badge/release-v0-blue.svg?longCache=true)](CHANGELOG.md)
+[![Development Status](https://img.shields.io/badge/status-planning-lightgrey.svg?longCache=true)](ROADMAP.md)
+[![Build Status](https://img.shields.io/badge/build-unknown-lightgrey.svg?longCache=true)](https://travis-ci.org)
+[![Build Coverage](https://img.shields.io/badge/coverage-0%25-lightgrey.svg?longCache=true)](https://codecov.io)
 
-## What is THELMA?
-THELMA is the digital content management system for the NYC Municipal Archives and Library. Using open-source components, it is a full pipeline of tools to assist in the long-term preservation and storage of the assets of the Municipal Library and Archives. Additionally, it provides a public access interface to allow researchers to access our digitized holdings from anywhere in the world. 
+> A unified digital archive management platform for the City of New York.
 
-## Components
-### ArchivesSpace
-> [ArchivesSpace](http://archivesspace.org/) is the next-generation web-based archives information management system, designed by archivists and supported by diverse archival repositories.
+THELMA (**THE** **M**unicipal **L**ibrary and **A**rchives) is the digital content management system for the NYC Municipal Archives and Library. Using open-source components, it is a full pipeline of tools to assist in the long-term preservation and storage of the assets of the Municipal Library and Archives. Additionally, it provides a public access interface to allow researchers to access our digitized holdings from anywhere in the world. 
 
-The NYC Municipal Archives uses ArchivesSpace to maintain its up-to-date collection inventories for its holdings. 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+  - [Future](#future)
+  - [History](#history)
+  - [Community](#community)
+- [Credits](#credits)
+- [License](#license)
 
-#### Technical Details
+## Features
+THELMA is separated into the following components:
+- [ArchivesSpace](#docs/archivesspace/index.md)
+- [DSpace](#docs/dspace/index.md)
+- [Fedora](#docs/fedora/index.md)
+- [Archivematica](#docs/archivematica/index.md)
+- [Hyku](#docs/hyku/index.md)
 
-#### Resources
-- [Github Repository (archivesspace/archivesspace)](https://github.com/archivesspace/archivesspace)
-- [ArchivesSpace Technical Documentation](http://archivesspace.github.io/archivesspace/)
-- [ArchivesSpace Wiki](https://archivesspace.atlassian.net/wiki)
+## Requirements
 
-### DSpace
-DSpace is a turnkey repository application used to provide durable access to digital resources. The Municipal Library uses DSpace to serve its digital collections for Government Reports. 
+## Installation
 
-DSpace is currently used to facilitate the submission process for government reports but will eventually be used as a search interface as well.
+## Usage
 
-To search for current government reports, please visit the NYC [Government Publications Portal](http://a860-gpp.nyc.gov)
-#### Resources
-- [CityOfNewYork/DSpace](https://github.com/cityofnewyork/dspace)
-- [DSpace/DSPace](https://github.com/dspace/dspace)
-- [CityOfNewYork/DORIS-Publications-Portal](https://github.com/cityofnewyork/doris-publications-portal)
-### Archivematica
+## Development
 
-### Hyku / Fedora
-TODO
+See [CONTRIBUTING](CONTRIBUTING.md)
 
-### Koha
-TODO
+### Future
 
-## Cloud Hosting
-The Municipal Archives and Library are currently in the process of identifying where to host our digital platform. As a result, this repository will contain terraform scripts for Amazon Web Services, Microsoft Azure, and Google Cloud Platform as we evaluate our options. 
+See [ROADMAP](ROADMAP.md)
 
-## Contributing
-TODO
+### History
+
+See [CHANGELOG](CHANGELOG.md)
+
+### Community
+
+See [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+
+## Credits
+
+See [AUTHORS](AUTHORS.md)
+
+## License
+
+See [LICENSE](LICENSE), [NOTICE](NOTICE)
