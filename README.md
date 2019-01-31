@@ -7,7 +7,7 @@
 
 > A unified digital archive management platform for the City of New York.
 
-THELMA (**THE** **M**unicipal **L**ibrary and **A**rchives) is the digital content management system for the NYC Municipal Archives and Library. Using open-source components, it is a full pipeline of tools to assist in the long-term preservation and storage of the assets of the Municipal Library and Archives. Additionally, it provides a public access interface to allow researchers to access our digitized holdings from anywhere in the world. 
+THELMA (**THE** **L**ibrary and **M**unicipal **A**rchives) is the digital content management system for the NYC Municipal Archives and Library. Using open-source components, it is a full pipeline of tools to assist in the long-term preservation and storage of the assets of the Municipal Library and Archives. Additionally, it provides a public access interface to allow researchers to access our digitized holdings from anywhere in the world. 
 
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
