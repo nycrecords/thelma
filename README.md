@@ -24,11 +24,11 @@ THELMA (**THE** **M**unicipal **L**ibrary and **A**rchives) is the digital conte
 
 ## Features
 THELMA is separated into the following components:
-- [ArchivesSpace](#docs/archivesspace/index.md)
-- [DSpace](#docs/dspace/index.md)
-- [Fedora](#docs/fedora/index.md)
-- [Archivematica](#docs/archivematica/index.md)
-- [Hyku](#docs/hyku/index.md)
+- [ArchivesSpace](docs/archivesspace/index.md)
+- [DSpace](docs/dspace/index.md)
+- [Fedora](docs/fedora/index.md)
+- [Archivematica](docs/archivematica/index.md)
+- [Hyku](docs/hyku/index.md)
 
 ## Requirements
 
