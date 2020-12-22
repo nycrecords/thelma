@@ -135,17 +135,3 @@ Links
 
 * [Microsoft Documentation - Access Tiers](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-storage-tiers?tabs=azure-portal)
 * [Microsoft Documentation - Data Redundancy](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy?toc=/azure/storage/blobs/toc.json#redundancy-in-the-primary-region)
-
-
-Microsoft offers multiple redundancy options for our data:
--	LRS – Data is copied to three different servers in a single data center. This protects from hardware failure or rack failure but does not protect our data if the entire data center goes offline. Supports Hot, Cool, and Archive storage.
--	ZRS – Data is copied to three different availability zones in a region (data centers with separate power, cooling, networking that are tens of miles apart). This protects us from hardware failure and rack failure as well as a total data center outage. Supports Hot and Cool storage but not Archive storage.
--	GRS – Data is copied using LRS in the primary region and also copied using LRS to a data center in the secondary region. Protects against the loss of the primary region datacenter in addition to rack and server failures in either datacenter. Supports Hot, Cool, and Archive storage.
--	GZRS – Data is copied using ZRS in the primary region and also copied using LRS to a data center in the secondary region. Protects against the loss of multiple data centers in the primary region and rack and server failures in the secondary datacenter. Supports Hot and Cool storage but not Archive storage.
--	RA-GRS / RA-GZRS – These offerings are the same as GRS / GZRS (above) with the added ability to read (but not write) data in the secondary region so that we have read access to our data at all times (even if the primary region fails). RA-GRS supports Hot, Cool, and Archive Storage. RA-GZRS supports Hot and Cool storage but not Archive storage.
-
-Microsoft provides the following summary for 
-
-We have 2 use cases for our data:
-1)	Access Copies – Can be regenerated from the Master files if needed. These are used to respond to reference and research requests as needed. Loss of this data would be detrimental to agency operations but would not be catastrophic.
-2)	Master Files – The “original” digital / digitized version. Loss of born-digital master files would be considered catastrophic, while loss of digitized master files would be considered severe to catastrophic. 
