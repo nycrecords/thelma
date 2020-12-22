@@ -45,7 +45,7 @@ Pros and Cons of the Options
 
 ### 1. Locally Redundant Storage (LRS)
 
-ZRS replicates data three times within a single physical location in the primary region. It provides 99.999999999% (11 nines) durability of objects over a given year. LRS supports Hot, Cool, and Archive storage. LRS is the best option for data that can easily be reconstructed or regenerated.
+LRS replicates data three times within a single physical location in the primary region. It provides 99.999999999% (11 nines) durability of objects over a given year. LRS supports Hot, Cool, and Archive storage. LRS is the best option for data that can easily be reconstructed or regenerated.
 
 #### Pros
 
@@ -59,7 +59,7 @@ ZRS replicates data three times within a single physical location in the primary
 
 ### 2. Zone Redundant Storage (ZRS)
 
-ZRS replicates data across three availability zones in the primary region. Each availability zone is a separate physical location with independent power, cooliing and networking. It provides 99.9999999999% (12 nines) durability of objects over a given year. ZRS is best for data that requires consistent access and availability in a single region.
+ZRS replicates data across three availability zones in the primary region. Each availability zone is a separate physical location with independent power, cooling and networking. It provides 99.9999999999% (12 nines) durability of objects over a given year. ZRS is best for data that requires consistent access and availability in a single region.
 
 #### Pros
 
